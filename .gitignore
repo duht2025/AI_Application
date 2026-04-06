@@ -1,27 +1,3 @@
-# 首先明确忽略所有大型虚拟环境和数据文件夹（防止 Git 扫描）
-/my new env/
-/my_new_env/
-/llm_env/
-/multi_agent_env/
-/chroma_db/
-/db/
-/models/
-/Test/
-/过程代码/
-/学习文档/
-/运行所需文档/
-
-# 忽略所有其他文件和文件夹
-*
-
-# 但保留指定的文件/文件夹
-!.gitattributes
-!.gitignore
-!Create_MulAg_env*
-!MulAgrequires*
-!Multi_Agent*
-!QARobot*
-!QARobot_RAG*
-!RAG_V0.2*
-!SUBMIT/
-!SUBMIT/**
+# 忽略可能的临时文件
+*.pyc
+__pycache__/
